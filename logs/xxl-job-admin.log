@@ -1,0 +1,51 @@
+2022-04-26 14:09:07,144 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 55] Starting XxlJobAdminApplication using Java 1.8.0_211 on DESKTOP-E97KJ83 with PID 19392 (D:\XXLPrograms\xxl-job\xxl-job-admin\target\classes started by admin in D:\XXLPrograms\xxl-job)
+2022-04-26 14:09:07,157 INFO [main] c.x.job.admin.XxlJobAdminApplication [SpringApplication.java : 679] The following profiles are active: test
+2022-04-26 14:09:08,060 INFO [main] o.s.cloud.context.scope.GenericScope [GenericScope.java : 283] BeanFactory id=e8a9a1d4-1bdc-3118-ba6b-baaf73861951
+2022-04-26 14:09:08,256 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8082 (http)
+2022-04-26 14:09:08,264 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8082"]
+2022-04-26 14:09:08,264 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2022-04-26 14:09:08,264 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-04-26 14:09:08,324 INFO [main] o.a.c.c.C.[.[.[/xxlJobAdmin/v1] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2022-04-26 14:09:08,325 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 289] Root WebApplicationContext: initialization completed in 971 ms
+2022-04-26 14:09:08,787 INFO [main] c.x.j.a.c.scheduler.XxlJobScheduler [XxlJobScheduler.java : 45] >>>>>>>>> init xxl-job admin success.
+2022-04-26 14:09:08,798 INFO [xxl-job, admin JobLogReportHelper] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariCP - Starting...
+2022-04-26 14:09:08,888 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 181] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-26 14:09:08,923 INFO [xxl-job, admin JobLogReportHelper] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariCP - Start completed.
+2022-04-26 14:09:08,969 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 57] Adding welcome page template: index
+2022-04-26 14:09:09,092 INFO [main] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java : 181] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-04-26 14:09:09,218 INFO [main] org.reflections.Reflections [Reflections.java : 232] Reflections took 28 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-04-26 14:09:09,248 INFO [main] org.reflections.Reflections [Reflections.java : 232] Reflections took 13 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-04-26 14:09:09,262 INFO [main] org.reflections.Reflections [Reflections.java : 232] Reflections took 11 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-04-26 14:09:09,391 INFO [main] org.reflections.Reflections [Reflections.java : 232] Reflections took 122 ms to scan 99 urls, producing 0 keys and 0 values 
+2022-04-26 14:09:09,410 INFO [main] org.reflections.Reflections [Reflections.java : 232] Reflections took 19 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-04-26 14:09:09,432 INFO [main] org.reflections.Reflections [Reflections.java : 232] Reflections took 19 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-04-26 14:09:09,466 INFO [main] org.reflections.Reflections [Reflections.java : 232] Reflections took 31 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-04-26 14:09:09,612 INFO [main] org.reflections.Reflections [Reflections.java : 232] Reflections took 143 ms to scan 99 urls, producing 0 keys and 0 values 
+2022-04-26 14:09:11,346 INFO [main] o.s.b.a.e.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-04-26 14:09:11,434 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8082"]
+2022-04-26 14:09:11,442 INFO [main] o.a.c.c.C.[.[.[/xxlJobAdmin/v1] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-26 14:09:11,442 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2022-04-26 14:09:11,443 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 1 ms
+2022-04-26 14:09:11,444 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8082 (http) with context path '/xxlJobAdmin/v1'
+2022-04-26 14:09:11,453 INFO [main] c.a.c.n.r.NacosServiceRegistry [NacosServiceRegistry.java : 75] nacos registry, DEFAULT_GROUP xxl-job-service 172.16.2.92:8082 register finished
+2022-04-26 14:09:11,510 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 61] Started XxlJobAdminApplication in 4.744 seconds (JVM running for 5.451)
+2022-04-26 14:09:13,001 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 52] >>>>>>>>> init xxl-job admin scheduler success.
+2022-04-26 14:34:13,277 WARN [Thread-18] c.a.n.c.http.HttpClientBeanHolder [HttpClientBeanHolder.java : 108] [HttpClientBeanHolder] Start destroying common HttpClient
+2022-04-26 14:34:13,277 WARN [Thread-15] c.a.nacos.common.notify.NotifyCenter [NotifyCenter.java : 136] [NotifyCenter] Start destroying Publisher
+2022-04-26 14:34:13,278 WARN [Thread-15] c.a.nacos.common.notify.NotifyCenter [NotifyCenter.java : 153] [NotifyCenter] Destruction of the end
+2022-04-26 14:34:13,278 WARN [Thread-18] c.a.n.c.http.HttpClientBeanHolder [HttpClientBeanHolder.java : 114] [HttpClientBeanHolder] Destruction of the end
+2022-04-26 14:34:13,323 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java : 218] Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-04-26 14:34:13,328 INFO [SpringContextShutdownHook] c.a.c.n.r.NacosServiceRegistry [NacosServiceRegistry.java : 90] De-registering from Nacos Server now...
+2022-04-26 14:34:13,331 INFO [SpringContextShutdownHook] c.a.c.n.r.NacosServiceRegistry [NacosServiceRegistry.java : 110] De-registration finished.
+2022-04-26 14:34:13,641 WARN [SpringContextShutdownHook] o.s.b.f.s.DisposableBeanAdapter [DisposableBeanAdapter.java : 291] Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-04-26 14:34:13,642 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 218] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-26 14:34:14,000 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 212] >>>>>>>>>>> xxl-job, JobScheduleHelper#scheduleThread stop
+2022-04-26 14:34:15,000 INFO [xxl-job, admin JobScheduleHelper#ringThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 264] >>>>>>>>>>> xxl-job, JobScheduleHelper#ringThread stop
+2022-04-26 14:34:15,643 INFO [SpringContextShutdownHook] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 353] >>>>>>>>>>> xxl-job, JobScheduleHelper stop
+2022-04-26 14:34:15,643 INFO [xxl-job, admin JobLogReportHelper] c.x.j.a.c.thread.JobLogReportHelper [JobLogReportHelper.java : 132] >>>>>>>>>>> xxl-job, job log report thread stop
+2022-04-26 14:34:15,643 INFO [xxl-job, admin JobLosedMonitorHelper] c.x.j.a.c.thread.JobCompleteHelper [JobCompleteHelper.java : 111] >>>>>>>>>>> xxl-job, JobLosedMonitorHelper stop
+2022-04-26 14:34:15,643 INFO [xxl-job, admin JobFailMonitorHelper] c.x.j.a.c.t.JobFailMonitorHelper [JobFailMonitorHelper.java : 90] >>>>>>>>>>> xxl-job, job fail monitor thread stop
+2022-04-26 14:34:15,643 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] c.x.j.a.c.thread.JobRegistryHelper [JobRegistryHelper.java : 123] >>>>>>>>>>> xxl-job, job registry monitor thread stop
+2022-04-26 14:34:15,644 INFO [SpringContextShutdownHook] c.x.j.a.c.t.JobTriggerPoolHelper [JobTriggerPoolHelper.java : 60] >>>>>>>>> xxl-job trigger thread pool shutdown success.
+2022-04-26 14:34:15,645 INFO [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariCP - Shutdown initiated...
+2022-04-26 14:34:15,647 INFO [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariCP - Shutdown completed.
